@@ -1,0 +1,18 @@
+//write a program to create an integer array.Calculate the sum and average of this array .....
+
+
+public class Array2{
+    public static void main(String[]args){
+        int a[]=new int[]{1,2,3,4,5,6};
+        int sum=0;
+        double avg=0;
+        for(int b:a)
+        {
+          sum=sum+b;
+          
+        }
+        System.out.println(sum);
+        avg=(double)sum/(double)a.length;
+        System.out.println(avg);
+    }
+}
