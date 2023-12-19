@@ -1,0 +1,29 @@
+//USe of GEneric class
+
+class Mydata<E>
+{
+   E i;
+
+public void set(E i1)
+{
+    
+i=i1;
+}
+public E get()
+{
+    return i;
+}}
+public class Example
+{
+    public static void main(String []args)
+    {
+        Mydata <Integer> m=new Mydata <Integer>(); 
+         Mydata <String> m1=new Mydata <String>();
+         Integer k=new Integer(5);
+         m.set(k);
+         System.out.println(m.get());
+        m1.set("Rohit");
+            System.out.println(m1.get());
+        
+    }
+}
